@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(images/pexels-muffin-creatives-2468773.jpg);
+    background-size: cover;
+    background-color: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2));
+}
+.logo{
+    height: 200px;
+    width: 100px;
+    margin: 30px 20px;
+    padding-top: 20px;
+}
+.logo img{
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 40px;
+    cursor: pointer;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px ;
+    border-radius: 15px;
+    position: relative;
+}
+.menu a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid aqua;
+    transition: 0.4sec linear;
+}
+.menu a:hover::before{
+    width: 90%;
+}
+.register a{
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px ;
+    background-color: tomato;
+    border-radius: 20px;
+    transition: 0.5sec;
+}
+.register a:hover{
+    background-color: aqua;
+}
+.h-txt{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: chartreuse;
+}
+.h-txt span{
+    letter-spacing: 10px;
+}
+.h-txt h1{
+    font-size: 3.5em;
+}
+.h-txt a{
+    text-decoration:none;
+    background-color: tomato;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    transition: 0.5sec;
+}
+.h-txt a:hover{
+    background: aqua;
+}
+span{
+    letter-spacing: 10px;
+    font-size: 50px;
+    color: chartreuse;
+}

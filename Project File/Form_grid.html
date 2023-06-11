@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+ <link rel="stylesheet" href="form_grid.css">
+</head>
+<body>
+    <div class="grid_container">
+        <div class="text">
+        <h2>Input your data</h2>
+    </div>
+        <div class="item first">
+            <label for="name">Name</label><br>
+            <input class="ft" type="text" placeholder="First Name">
+        </div>
+        <div class="item email">
+            <label for="email">E-mail</label><br>
+            <input class="em" type="email" placeholder="Enter your mail address here">
+        </div>
+        <div class="item phone">
+            <label for="phone">Phone</label><br>
+            <input class="phn" type="number" placeholder="Enter your number">
+        </div>
+        <div class="item date">
+            <label for="bd">Birthday</label>
+            <input class="clndr" type="date" placeholder="Date & Time">
+        </div>
+        <div class="gender">
+        <select name="gender" id="gender">
+            <option>Choose Your Gender</option>
+            <option value="gender">Male</option>
+            <option value="gender">Female</option>
+            <option value="gender">others</option>
+        </select>
+        </div>
+        <div class="item comments">
+            <label for="comments">Comments</label><br>
+            <input class="cmn" type="text" placeholder="Type your comments here">
+        </div>
+        <div class="button">
+            <button class="bt">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
